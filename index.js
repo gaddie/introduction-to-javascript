@@ -129,3 +129,15 @@ function fibenacciGenerator() {
     }
     return fib;
 }
+
+
+// document.firstElementChild.lastElementChild.lastElementChild.lastElementChild.innerHTML = "gadson";
+document.getElementsByTagName("li")[2].innerHTML = "gadson";
+document.querySelector("li a").style.color = "red";
+document.querySelectorAll("li")[1].style.color = "blue";
+document.querySelector('button').style.backgroundColor = "yellow";
+// document.querySelector('button').classList.add("invisible");
+// document.querySelector('button').classList.remove("invisible");
+// document.querySelector('button').classList.toggle("invisible");
+document.querySelector('h1').classList.toggle("huge");
+document.querySelector('h1').textContent = "Goodbye";
